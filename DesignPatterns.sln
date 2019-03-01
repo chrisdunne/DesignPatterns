@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D1947BB-95CA-4DD4-9A13-20E04F8B3CEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02DEA574-2C39-402E-AFD6-C812DD0D34B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{0B75E4A6-612A-4F55-8023-18B865D44261}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Tests", "DesignPatterns.Tests\DesignPatterns.Tests.csproj", "{AC6B7AD8-F1A3-4CB4-8FD0-C948BD5274EB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B75E4A6-612A-4F55-8023-18B865D44261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B75E4A6-612A-4F55-8023-18B865D44261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B75E4A6-612A-4F55-8023-18B865D44261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B75E4A6-612A-4F55-8023-18B865D44261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6B7AD8-F1A3-4CB4-8FD0-C948BD5274EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6B7AD8-F1A3-4CB4-8FD0-C948BD5274EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6B7AD8-F1A3-4CB4-8FD0-C948BD5274EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6B7AD8-F1A3-4CB4-8FD0-C948BD5274EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B75E4A6-612A-4F55-8023-18B865D44261} = {0D1947BB-95CA-4DD4-9A13-20E04F8B3CEB}
+		{AC6B7AD8-F1A3-4CB4-8FD0-C948BD5274EB} = {02DEA574-2C39-402E-AFD6-C812DD0D34B7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55D9027D-839A-4F62-8D17-FFF9D2999447}
