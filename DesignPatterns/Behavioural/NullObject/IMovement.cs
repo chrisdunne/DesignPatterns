@@ -8,9 +8,9 @@ namespace DesignPatterns.Behavioural.NullObject
 {
     public interface IMovement
     {
-        void Jump();
-        void Crouch();
         void Forwards();
         void Backwards();
+        void Up();
+        void Down();
     }
 }

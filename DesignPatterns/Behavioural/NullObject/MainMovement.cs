@@ -8,24 +8,27 @@ namespace DesignPatterns.Behavioural.NullObject
 {
     public class MainMovement : IMovement
     {
+        private int _x;
+        private int _y;
+
         public void Backwards()
         {
-            throw new NotImplementedException();
+            _x--;
         }
 
-        public void Crouch()
+        public void Down()
         {
-            throw new NotImplementedException();
+            _y--;
         }
 
         public void Forwards()
         {
-            throw new NotImplementedException();
+            _x++;
         }
 
-        public void Jump()
+        public void Up()
         {
-            throw new NotImplementedException();
+            _y++;
         }
     }
 }

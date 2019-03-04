@@ -11,7 +11,7 @@ namespace DesignPatterns.Behavioural.Tests
     public class NullObject
     {
         [Test]
-        public void Test()
+        public void WhenNoMovementSet_UseNoMovementObject()
         {
 
         }
