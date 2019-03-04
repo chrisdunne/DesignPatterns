@@ -40,9 +40,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Singleton\Logger.cs" />
+    <Compile Include="Behavioural\Command\RadioOffCommand.cs" />
+    <Compile Include="Behavioural\Command\RadioOnCommand.cs" />
+    <Compile Include="Behavioural\Command\ICommand.cs" />
+    <Compile Include="Behavioural\Command\Invoker.cs" />
+    <Compile Include="Behavioural\Command\RadioReceiver.cs" />
+    <Compile Include="Behavioural\NullObject\MainMovement.cs" />
+    <Compile Include="Behavioural\NullObject\IMovement.cs" />
+    <Compile Include="Behavioural\NullObject\NoMovement.cs" />
+    <Compile Include="Creational\Singleton\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Behavioural\ChainOfResponsibility\" />
+    <Folder Include="Behavioural\Interpreter\" />
+    <Folder Include="Behavioural\Iterator\" />
+    <Folder Include="Behavioural\Mediator\" />
+    <Folder Include="Behavioural\Memento\" />
+    <Folder Include="Behavioural\Observer\" />
+    <Folder Include="Behavioural\State\" />
+    <Folder Include="Behavioural\Strategy\" />
+    <Folder Include="Behavioural\Template\" />
+    <Folder Include="Behavioural\Visitor\" />
+    <Folder Include="Creational\AbstractFactory\" />
+    <Folder Include="Creational\Builder\" />
+    <Folder Include="Creational\FactoryMethod\" />
+    <Folder Include="Creational\Prototype\" />
+    <Folder Include="Structural\Adapter\" />
+    <Folder Include="Structural\Bridge\" />
+    <Folder Include="Structural\Composite\" />
+    <Folder Include="Structural\Decorator\" />
+    <Folder Include="Structural\Facade\" />
+    <Folder Include="Structural\Flyweight\" />
+    <Folder Include="Structural\Proxy\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

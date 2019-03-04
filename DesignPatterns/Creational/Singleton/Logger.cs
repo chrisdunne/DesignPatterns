@@ -1,13 +1,10 @@
-﻿namespace DesignPatterns.Singleton
+﻿namespace DesignPatterns.Creational.Singleton
 {
     public class Logger
     {
         private static Logger _logger;
 
-        private Logger()
-        {
-            
-        }
+        private Logger() {}
 
         public string Message { get; set; }
 

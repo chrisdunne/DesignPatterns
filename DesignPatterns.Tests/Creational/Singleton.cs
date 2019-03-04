@@ -1,7 +1,7 @@
-﻿using DesignPatterns.Singleton;
+﻿using DesignPatterns.Creational.Singleton;
 using NUnit.Framework;
 
-namespace DesignPatterns.Tests
+namespace DesignPatterns.Creational.Tests
 {
     [TestFixture]
     public class Singleton
