@@ -52,27 +52,56 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Behavioural\Blackboard\" />
     <Folder Include="Behavioural\ChainOfResponsibility\" />
     <Folder Include="Behavioural\Interpreter\" />
     <Folder Include="Behavioural\Iterator\" />
     <Folder Include="Behavioural\Mediator\" />
     <Folder Include="Behavioural\Memento\" />
     <Folder Include="Behavioural\Observer\" />
+    <Folder Include="Behavioural\Servant\" />
+    <Folder Include="Behavioural\Specification\" />
     <Folder Include="Behavioural\State\" />
     <Folder Include="Behavioural\Strategy\" />
-    <Folder Include="Behavioural\Template\" />
+    <Folder Include="Behavioural\TemplateMethod\" />
     <Folder Include="Behavioural\Visitor\" />
+    <Folder Include="Concurrency\ActiveObject\" />
+    <Folder Include="Concurrency\Balking\" />
+    <Folder Include="Concurrency\BindingProperties\" />
+    <Folder Include="Concurrency\ComputeKernel\" />
+    <Folder Include="Concurrency\DoubleCheckedLocking\" />
+    <Folder Include="Concurrency\EventBasedAsynchronous\" />
+    <Folder Include="Concurrency\GuardedSuspension\" />
+    <Folder Include="Concurrency\Join\" />
+    <Folder Include="Concurrency\Lock\" />
+    <Folder Include="Concurrency\Messaging\" />
+    <Folder Include="Concurrency\MonitorObject\" />
+    <Folder Include="Concurrency\Reactor\" />
+    <Folder Include="Concurrency\ReadWriteLock\" />
+    <Folder Include="Concurrency\Scheduler\" />
+    <Folder Include="Concurrency\ThreadPool\" />
+    <Folder Include="Concurrency\ThreadSpecificStorage\" />
     <Folder Include="Creational\AbstractFactory\" />
     <Folder Include="Creational\Builder\" />
+    <Folder Include="Creational\DependencyInjection\" />
     <Folder Include="Creational\FactoryMethod\" />
+    <Folder Include="Creational\LazyInitialization\" />
+    <Folder Include="Creational\Multiton\" />
+    <Folder Include="Creational\ObjectPool\" />
     <Folder Include="Creational\Prototype\" />
+    <Folder Include="Creational\ResourceAcquisitionIsIntialization\" />
     <Folder Include="Structural\Adapter\" />
     <Folder Include="Structural\Bridge\" />
     <Folder Include="Structural\Composite\" />
     <Folder Include="Structural\Decorator\" />
+    <Folder Include="Structural\ExtensionObject\" />
     <Folder Include="Structural\Facade\" />
     <Folder Include="Structural\Flyweight\" />
+    <Folder Include="Structural\FrontController\" />
+    <Folder Include="Structural\Marker\" />
+    <Folder Include="Structural\Module\" />
     <Folder Include="Structural\Proxy\" />
+    <Folder Include="Structural\Twin\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
