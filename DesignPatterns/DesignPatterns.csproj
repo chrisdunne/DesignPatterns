@@ -48,6 +48,11 @@
     <Compile Include="Behavioural\NullObject\MainMovement.cs" />
     <Compile Include="Behavioural\NullObject\IMovement.cs" />
     <Compile Include="Behavioural\NullObject\NoMovement.cs" />
+    <Compile Include="Creational\SimpleFactory\Beer.cs" />
+    <Compile Include="Creational\SimpleFactory\Coffee.cs" />
+    <Compile Include="Creational\SimpleFactory\DrinkSimpleFactory.cs" />
+    <Compile Include="Creational\SimpleFactory\DrinkType.cs" />
+    <Compile Include="Creational\SimpleFactory\IDrink.cs" />
     <Compile Include="Creational\Singleton\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

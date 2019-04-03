@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Behavioural\NullObject.cs" />
+    <Compile Include="Creational\SimpleFactory.cs" />
     <Compile Include="Creational\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
