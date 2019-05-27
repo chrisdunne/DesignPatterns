@@ -48,6 +48,10 @@
     <Compile Include="Behavioural\NullObject\MainMovement.cs" />
     <Compile Include="Behavioural\NullObject\IMovement.cs" />
     <Compile Include="Behavioural\NullObject\NoMovement.cs" />
+    <Compile Include="Behavioural\Observer\Channel.cs" />
+    <Compile Include="Behavioural\Observer\IChannel.cs" />
+    <Compile Include="Behavioural\Observer\ISubscriber.cs" />
+    <Compile Include="Behavioural\Observer\Subscriber.cs" />
     <Compile Include="Creational\FactoryMethod\Airline.cs" />
     <Compile Include="Creational\FactoryMethod\IFlight.cs" />
     <Compile Include="Creational\FactoryMethod\KLM.cs" />
@@ -69,7 +73,6 @@
     <Folder Include="Behavioural\Iterator\" />
     <Folder Include="Behavioural\Mediator\" />
     <Folder Include="Behavioural\Memento\" />
-    <Folder Include="Behavioural\Observer\" />
     <Folder Include="Behavioural\Servant\" />
     <Folder Include="Behavioural\Specification\" />
     <Folder Include="Behavioural\State\" />
