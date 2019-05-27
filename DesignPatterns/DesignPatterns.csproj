@@ -48,6 +48,12 @@
     <Compile Include="Behavioural\NullObject\MainMovement.cs" />
     <Compile Include="Behavioural\NullObject\IMovement.cs" />
     <Compile Include="Behavioural\NullObject\NoMovement.cs" />
+    <Compile Include="Creational\FactoryMethod\Airline.cs" />
+    <Compile Include="Creational\FactoryMethod\IFlight.cs" />
+    <Compile Include="Creational\FactoryMethod\KLM.cs" />
+    <Compile Include="Creational\FactoryMethod\KLMFlight.cs" />
+    <Compile Include="Creational\FactoryMethod\TUI.cs" />
+    <Compile Include="Creational\FactoryMethod\TUIFlight.cs" />
     <Compile Include="Creational\SimpleFactory\Beer.cs" />
     <Compile Include="Creational\SimpleFactory\Coffee.cs" />
     <Compile Include="Creational\SimpleFactory\DrinkSimpleFactory.cs" />
@@ -89,7 +95,6 @@
     <Folder Include="Creational\AbstractFactory\" />
     <Folder Include="Creational\Builder\" />
     <Folder Include="Creational\DependencyInjection\" />
-    <Folder Include="Creational\FactoryMethod\" />
     <Folder Include="Creational\LazyInitialization\" />
     <Folder Include="Creational\Multiton\" />
     <Folder Include="Creational\ObjectPool\" />
