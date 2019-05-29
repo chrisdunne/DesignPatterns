@@ -64,6 +64,11 @@
     <Compile Include="Creational\SimpleFactory\DrinkType.cs" />
     <Compile Include="Creational\SimpleFactory\IDrink.cs" />
     <Compile Include="Creational\Singleton\Logger.cs" />
+    <Compile Include="Other\Repository\IProduct.cs" />
+    <Compile Include="Other\Repository\IProductRepository.cs" />
+    <Compile Include="Other\Repository\Product.cs" />
+    <Compile Include="Other\Repository\CacheProductRepository.cs" />
+    <Compile Include="Other\Repository\SQLProductRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
