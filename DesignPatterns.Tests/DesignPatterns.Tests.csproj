@@ -51,6 +51,7 @@
     <Compile Include="Behavioural\Observer.cs" />
     <Compile Include="Creational\SimpleFactory.cs" />
     <Compile Include="Creational\Singleton.cs" />
+    <Compile Include="Other\Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
