@@ -4,7 +4,9 @@
     {
         private static Logger _logger;
 
-        private Logger() {}
+        private Logger()
+        {
+        }
 
         public string Message { get; set; }
 

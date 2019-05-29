@@ -10,8 +10,10 @@ namespace DesignPatterns.Creational.SimpleFactory
             {
                 case DrinkType.Beer:
                     return new Beer();
+
                 case DrinkType.Coffee:
                     return new Coffee();
+
                 default:
                     throw new InvalidOperationException("The requested drink is not available.");
             }

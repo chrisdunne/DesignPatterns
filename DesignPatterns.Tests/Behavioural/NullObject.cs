@@ -8,7 +8,6 @@ namespace DesignPatterns.Tests.Behavioural
         [Test]
         public void WhenNoMovementSet_UseNoMovementObject()
         {
-
         }
     }
 }
